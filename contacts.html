@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Home page</title>
+        <link rel="stylesheet" type="text/css" href="contacts.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div style="opacity: 0.8;background-color: black;">
+            <nav class="navbar navbar-expand-sm navbar-dark ">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacts.html">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Info</a>
+                    </li>
+                </ul>
+                <ul class="navbar navbar-nav ml-auto">
+                    <form class="navbar-nav" method="POST" action="login.php">
+                        <li class="nav-item ml-3">
+                            <input type="text" placeholder="admin login id" name="id"/>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <input type="password" placeholder="admin password" name="psw"/>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn  btn-dark btn-sm ml-3" type="submit" name="loginButton">Login</button>
+                        </li>
+                    </form>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="bgimg-3 w3-display-container w3-opacity-min " style="padding-top: 230px;">
+            <div style="text-align: center;"><span class="w3-xxlarge w3-text-white w3-wide ">CONTACT</span></div>
+        </div>
+        <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                  <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chandra Layout, Bengaluru<br>
+                  <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 9876543210<br>
+                  <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a href="https://mail.google.com/mail/?view=cm&fs=1&to=theClub@gmail.com" target = "_blank"> Email: theclub@gmail.com</a><br>
+                </div>
+                <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+                <form action="/action_page.php" target="_blank">
+                  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                    <div class="w3-half">
+                      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                    </div>
+                    <div class="w3-half">
+                      <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                    </div>
+                  </div>
+                  <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                  <button class="w3-button w3-black w3-right w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                  </button>
+                </form>
+              </div>
+          <footer>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item-lg"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li><br>
+                            <li class="list-inline-item-lg"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li><br>
+                            <li class="list-inline-item-lg"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li><br>
+                            <li class="list-inline-item-lg"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li><br>
+                            <li class="list-inline-item-lg"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>	
+                <!-- <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center ">
+                        <p><u><a href="">The Club</a></u> is a Registered MSP/ISO of Elavon, Inc. Bengaluru [a wholly owned subsidiary of India Bancorp, Bengaluru, 40]</p>
+                        <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="localhost/sportsClub" target="_blank">theClub</a></p>
+                    </div>
+                </div>	 -->
+        </footer>
+    </body>
+</html>

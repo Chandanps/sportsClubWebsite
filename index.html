@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>Home page</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+           
+            .font1{
+                height: 100%;
+              font-family: "Inconsolata", sans-serif;color: white;
+              font-size: large;
+
+            }
+            
+            .bgimg {
+              background-position: center;
+              background-size: cover;
+              background-image: url("sc.jpg");
+              min-height: 75%;
+            }
+            
+            .menu {
+              display: none;
+            }
+            footer{
+                background-color:rgba(131, 131, 131, 0.7);
+                color: rgb(0, 0, 0);
+                font-size: medium;
+            }
+            
+            </style>
+    </head>
+    <body>
+        <!-- NAV BAR----------------------------------------------------------------------------------->
+        <nav id="navMenu"></nav>
+        <div class="" style="opacity: 0.8;background-color: black;">
+            <nav class="navbar navbar-expand-sm navbar-dark ">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Info</a>
+                    </li>
+                </ul>
+                <ul class="navbar navbar-nav ml-auto">
+                    <form class="navbar-nav" method="POST" action="login.php">
+                        <li class="nav-item ml-3">
+                            <input type="text" placeholder="admin login id" name="id"/>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <input type="password" placeholder="admin password" name="psw"/>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn  btn-dark btn-sm ml-3" type="submit" name="loginButton">Login</button>
+                        </li>
+                    </form>
+                </ul>
+            </nav>
+        </div>
+<div class="font1">
+        <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+            <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+              <span class="w3-tag">Open 24 x 7</span>
+            </div>
+            <div class="w3-display-middle w3-center">
+              <span class="w3-text-white" style="font-size:90px">the<br>Club</span>
+            </div>
+            <div class="w3-display-bottomright w3-center w3-padding-large">
+              <span class="w3-text-white">#49, Chandra layout</span>
+            </div>
+        </header>
+
+        <!-- CONTENT---------------------------------------------------------------------------------- -->
+        <!-- About Container -->
+        <div class="w3-container" id="about">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CLUB</span></h5>
+                <p>The Club was founded in 2017 by Mr. Chandan P and Mrs. Bhoomika K in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>In addition to our full coaching for 9 main sports, we have also started recruiting coaches for indoor games and other outdoor games as well.</p>
+                <div class="w3-panel w3-leftbar w3-light-grey">
+                    <p><i>"The interesting thing about coaching is that you have to trouble the comfortable, and comfort the troubled."</i></p>
+                    <p>Ric Charlesworth, Hockey</p>
+                </div>
+                <img src="indeximg1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+                <p><strong>Opening hours:</strong> 24 x 7.</p>
+                <p><strong>Address:</strong> #49 Chandra layout, Bengaluru, India</p>
+            </div>
+        </div>
+
+      <div class="w3-container" id="about">
+            <div class="w3-content" style="max-width:700px">
+              <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">INSPIRATION</span></h5>
+              <p>The Club gets its root inspiration from of the greatest sportsmen and sportswomen who were as well a pure gentlemen and ladies like Milkha Singh, P T Usha, Usain Bolt, M S Dhoni and many more.</p>
+              <p>The main aim is to provide the best of the quality coaching to the deserving people with the least possible amount of fee and sometimes no fee at all for the needy.</p>
+              <p>It's not an easy task to come nothing and nowhere and to reach the highest standards and platforms of sports. We are just a pushing force here and this force is really crucial at least in the beginning stages.</p>
+              <div class="w3-panel w3-leftbar w3-light-grey">
+                <p><i>"When I reflect upon my life, I can clearly see how my passion for running has dominated my life. The images that flash through my mind are those running....running…running…"</i></p>
+                <p>Milkha Singh</p>
+              </div>
+              <img src="milkha.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+              <br><br>
+              <p><strong>Moto:</strong> We never really retire.</p>
+              <p><strong>Open to:</strong> ANYONE </p>
+            </div>
+          </div>
+       
+
+        <footer>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>	
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center ">
+                        <p><u><a href="">The Club</a></u> is a Registered MSP/ISO of Elavon, Inc. Bengaluru [a wholly owned subsidiary of India Bancorp, Bengaluru, 40]</p>
+                        <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="localhost/sportsClub" target="_blank">theClub</a></p>
+                    </div>
+                </div>	
+        </footer>
+    </div>
+    </body>
+</html>
